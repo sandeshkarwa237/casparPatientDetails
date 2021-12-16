@@ -1,0 +1,48 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+thead {
+  background: lightgray;
+  position: sticky;
+  top: 0;
+}
+
+thead th {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+thead button {
+  border: 0;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0.5em;
+  background: lightgray;
+  cursor: pointer;
+}
+
+thead button.ascending::after {
+  content: "\25BE";
+}
+
+thead button.descending::after {
+  content: "\25B4";
+}
+
+tbody td {
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody tr:hover {
+  background-color: #eee;
+}
+
+.noResults {
+  border-bottom: 1px solid black;
+  padding: 0.5em;
+}
+.deleteButton {
+  cursor: pointer;
+}

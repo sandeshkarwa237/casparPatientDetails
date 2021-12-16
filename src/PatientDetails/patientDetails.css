@@ -1,0 +1,45 @@
+.formContainer {
+  margin: 0 30%;
+  background: lightgray;
+  border-radius: 5px;
+  padding: 25px;
+  display: flex;
+}
+
+.formWrapper {
+  width: 100%;
+}
+
+.flexWrapper {
+  display: flex;
+}
+
+.formLabel {
+  width: 50%;
+  align-self: center;
+}
+
+.profileWrapper {
+  margin: 15px 0px;
+}
+
+.profileIcon {
+  border-radius: 60px;
+  width: 120px;
+  height: 120px;
+}
+
+.backLink {
+  color: #0645ad;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.footerBtn {
+  margin-right: 15px;
+  padding: 10px;
+  background: white;
+  color: black;
+  border: 1px solid gray;
+  cursor: pointer;
+}

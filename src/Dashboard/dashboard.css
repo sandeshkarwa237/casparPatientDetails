@@ -1,0 +1,19 @@
+.patientTableContainer {
+  margin: 20px 0px;
+}
+
+.filterContainer {
+  height: 50px;
+  margin: 0px 25px;
+}
+
+.inputWrapper {
+  float: right;
+  width: 15%;
+  margin-right: 20px;
+}
+
+.dropdownWrapper {
+  float: left;
+  margin-left: 10px;
+}

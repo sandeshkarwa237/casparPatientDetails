@@ -1,0 +1,12 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+}
+.footerBtn {
+  margin-right: 15px;
+  padding: 10px;
+  background: white;
+  color: black;
+  border: 1px solid gray;
+  cursor: pointer;
+}
